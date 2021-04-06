@@ -1,0 +1,22 @@
+{
+    "name": "yoth-theme-dark",
+    "displayName": "yoth-theme-dark",
+    "description": "yoth-theme-dark",
+    "version": "0.0.1",
+    "publisher": "yoththemedark",
+    "engines": {
+        "vscode": "^1.55.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "yoth-theme-dark",
+                "uiTheme": "vs-dark",
+                "path": "./themes/yoth-theme-dark-color-theme.json"
+            }
+        ]
+    }
+}
